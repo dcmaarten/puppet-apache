@@ -2,3 +2,8 @@
 apache::instal_name: 'httpd'
 apache::config_path: '/etc/httpd/conf/httpd.conf'
 apache::service_name: 'httpd'
+# data/RedHat-family.yaml
+apache::vhosts_dir: '/etc/httpd/conf.d'
+apache::vhosts_owner: 'apache'
+apache::vhosts_group: 'apache'
+
